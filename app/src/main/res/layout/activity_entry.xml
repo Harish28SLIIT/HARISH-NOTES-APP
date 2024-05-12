@@ -3,36 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mbg"
     tools:context=".EntryActivity">
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/main"
-        android:scaleType="centerCrop" />
-
 
     <TextView
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HARISH NOTES SAVER"
-        android:textSize="24sp"
+        android:textSize="32sp"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
-
+        android:textColor="@color/white"
+        android:layout_centerInParent="true" />
 
     <Button
         android:id="@+id/enterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
-        android:textColor="@android:color/black"
+        android:textColor="@color/white"
+        android:background="@drawable/mbbg"
         android:layout_below="@id/titleTextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"/>
+        android:layout_marginTop="50dp" />
 
 </RelativeLayout>

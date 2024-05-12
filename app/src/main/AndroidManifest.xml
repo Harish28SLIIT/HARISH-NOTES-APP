@@ -24,7 +24,7 @@
 
         <activity
             android:name=".UpdateByHarish"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".AddActivityOfHarish"
             android:exported="false" />
