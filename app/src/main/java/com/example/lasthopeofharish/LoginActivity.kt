@@ -20,13 +20,10 @@ class LoginActivity : AppCompatActivity() {
             val username = usernameEditText.text.toString()
             val password = passwordEditText.text.toString()
 
-            // Allow any username and password
             if (isValidCredentials(username, password)) {
-                // Navigate to the main activity upon successful login
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
-                finish() // Finish LoginActivity to prevent returning to it using back button
-                // Show "Logged in successfully" message
+                finish()
                 Toast.makeText(this, "Logged in successfully", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
@@ -34,9 +31,8 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    // Function to allow any username/password combination
     private fun isValidCredentials(username: String, password: String): Boolean {
-        // Allow any username/password
-        return true
+        val usernamePattern = Regex("^[a-zA-Z0-9]+@gmail\\.com$")
+        return username.matches(usernamePattern) && password.length <= 10
     }
 }

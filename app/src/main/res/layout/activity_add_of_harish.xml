@@ -34,7 +34,7 @@
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/addNoteHeading"
-        android:background="@drawable/orange_border"
+        android:background="@drawable/white_border"
         android:layout_marginTop="16dp"
         android:maxLines="1"
         android:fontFamily="@font/poppins"/>
@@ -45,7 +45,7 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/titleEditText"
         android:layout_marginTop="12dp"
-        android:background="@drawable/orange_border"
+        android:background="@drawable/white_border"
         android:fontFamily="@font/poppins"
         android:gravity="top"
         android:hint="Enter The Description"

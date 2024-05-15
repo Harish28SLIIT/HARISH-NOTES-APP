@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "152999809397",
+    "firebase_url": "https://harish-client-default-rtdb.firebaseio.com",
+    "project_id": "harish-client",
+    "storage_bucket": "harish-client.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152999809397:android:6c2aa7461cc3e26bcdc33c",
+        "android_client_info": {
+          "package_name": "com.example.harishadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7XBGtw7RDWT0e_ijDv0nl6kdGNu-Fvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152999809397:android:ea0aae1922c3f0cecdc33c",
+        "android_client_info": {
+          "package_name": "com.example.harishclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7XBGtw7RDWT0e_ijDv0nl6kdGNu-Fvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152999809397:android:3b10bd1404817deecdc33c",
+        "android_client_info": {
+          "package_name": "com.example.lasthopeofharish"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP7XBGtw7RDWT0e_ijDv0nl6kdGNu-Fvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
